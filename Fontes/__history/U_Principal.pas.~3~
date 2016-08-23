@@ -1,0 +1,49 @@
+unit U_Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TF_Inicial = class(TForm)
+    Panel_menu: TPanel;
+    Menu_inicial: TMainMenu;
+    S1: TMenuItem;
+    N1: TMenuItem;
+    Cadastroseconsultas1: TMenuItem;
+    N2: TMenuItem;
+    Produtos1: TMenuItem;
+    Clientes1: TMenuItem;
+    N3: TMenuItem;
+    Mvimentos1: TMenuItem;
+    PDV1: TMenuItem;
+    N4: TMenuItem;
+    Caixa1: TMenuItem;
+    N5: TMenuItem;
+    VendasGerenciar1: TMenuItem;
+    VendasRelatrio1: TMenuItem;
+    VendasAbertas1: TMenuItem;
+    Stb_Inicial: TStatusBar;
+    Timer1: TTimer;
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  F_Inicial: TF_Inicial;
+
+implementation
+
+{$R *.dfm}
+
+procedure TF_Inicial.Timer1Timer(Sender: TObject);
+begin
+    Stb_Inicial
+end;
+
+end.

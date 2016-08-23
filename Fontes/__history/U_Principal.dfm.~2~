@@ -1,0 +1,85 @@
+object F_Inicial: TF_Inicial
+  Left = 0
+  Top = 0
+  Caption = 'Sistemas de controle de vendas Janx'
+  ClientHeight = 393
+  ClientWidth = 769
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = Menu_inicial
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Stb_Inicial: TStatusBar
+    Left = 0
+    Top = 374
+    Width = 769
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 512
+    ExplicitTop = 344
+    ExplicitWidth = 0
+  end
+  object Panel_menu: TPanel
+    Left = 0
+    Top = 0
+    Width = 769
+    Height = 73
+    Align = alTop
+    TabOrder = 1
+  end
+  object Menu_inicial: TMainMenu
+    Left = 720
+    Top = 80
+    object S1: TMenuItem
+      Caption = 'Sistema'
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object Cadastroseconsultas1: TMenuItem
+      Caption = 'Cadastros e Consultas'
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+      end
+    end
+    object N3: TMenuItem
+      Caption = '-'
+    end
+    object Mvimentos1: TMenuItem
+      Caption = 'Movimentos'
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object PDV1: TMenuItem
+        Caption = 'PDV'
+      end
+      object Caixa1: TMenuItem
+        Caption = 'Caixa'
+      end
+      object VendasAbertas1: TMenuItem
+        Caption = 'Vendas Abertas'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object VendasGerenciar1: TMenuItem
+        Caption = 'Vendas: Gerenciar'
+      end
+      object VendasRelatrio1: TMenuItem
+        Caption = 'Vendas: Relat'#243'rio'
+      end
+    end
+  end
+end
